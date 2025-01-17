@@ -39,16 +39,16 @@ robot_state_pub = Node(
 )
 
 # 关节信息节点(建议)
-# joint_state_pub = Node(
-#     package="joint_state_publisher",
-#     executable="joint_state_publisher"
-# )
+joint_state_pub = Node(
+    package="joint_state_publisher",
+    executable="joint_state_publisher"
+)
 
 # 关节信息节点图形界面
-joint_state_pub = Node(
-    package="joint_state_publisher_gui",
-    executable="joint_state_publisher_gui"
-)
+# joint_state_pub = Node(
+#     package="joint_state_publisher_gui",
+#     executable="joint_state_publisher_gui"
+# )
 
 rviz2 = Node(
     package="rviz2",
